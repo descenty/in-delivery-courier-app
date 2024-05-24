@@ -58,7 +58,7 @@ const ChatScreen = () => {
       <Divider />
       <CardFooter>
         <Link isExternal showAnchorIcon href="https://github.com/nextui-org/nextui">
-          Какой-то текст
+          Помощь
         </Link>
       </CardFooter>
     </Card>
