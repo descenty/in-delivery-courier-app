@@ -1,12 +1,12 @@
 import "./App.css";
-import AuthScreen from "./screens/authScreen";
+import AuthScreen from "./components/navigation/screens/authScreen";
 import NavTabs from "./components/navigation/navTabs";
 import { Route, Routes, useNavigate } from "react-router-dom";
 import { Button, NextUIProvider } from "@nextui-org/react";
 import { $loggedIn, switchLoggedIn } from "./stores/debugStore";
-import ChatScreen from "./screens/chatScreen";
-import OrdersScreen from "./screens/ordersScreen";
-import ProfileScreen from "./screens/profileScreen";
+import ChatScreen from "./components/navigation/screens/chatScreen";
+import OrdersScreen from "./components/navigation/screens/ordersScreen";
+import ProfileScreen from "./components/navigation/screens/profileScreen";
 import { useUnit } from "effector-react";
 import { useEffect } from "react";
 
